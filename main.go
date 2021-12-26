@@ -33,10 +33,14 @@ func main() {
 	p2, _ := loadPage("TestPage")
 
 	fmt.Println(p2.Body)
+	testTemplating()
 
-	fmt.Println("About Starting server")
+	fmt.Println()
 
-	setupServer()
+	renderTodo()
+	// fmt.Println("About Starting server")
+
+	// setupServer()
 
 }
 
