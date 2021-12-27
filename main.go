@@ -37,7 +37,9 @@ func main() {
 
 	fmt.Println()
 
-	renderTodo()
+	// renderTodo()
+
+	parsePerson()
 	// fmt.Println("About Starting server")
 
 	// setupServer()
